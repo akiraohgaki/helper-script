@@ -1,4 +1,4 @@
-import { bundle } from 'https://deno.land/x/emit/mod.ts';
+import { bundle } from 'jsr:@deno/emit';
 
 const entryPoint = Deno.args[0];
 const outfile = Deno.args[1];
